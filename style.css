@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.document{
+    display: flex;
+    gap: 2em;
+    
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+}
+.nav{
+    
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    width:25%;
+    height:100%;
+    
+}
+.item{
+   padding:0.5em 1em;
+   margin:3.5em 0 1.5em 0;
+   border-top: 1px solid black;
+}
+.description{
+    margin-left: 10%;
+   
+}
