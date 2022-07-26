@@ -4,23 +4,24 @@
     box-sizing: border-box;
     line-height: 150%;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 550;
+
+    font-size: medium;
 }
-h2{
-    margin-left:2em;
+
+header{
+    font-weight:550;
+    font-size:160%;
 }
 .document{
     display: flex;
     gap: 2em;
     
 }
-h1,h2{
-    font-weight: 550;
-}
-.nav-bar{
+#navbar{
     display: flex;
     flex-direction: column;
     position: fixed;
+    margin-left:3%;
 
 }
 .nav{
@@ -32,12 +33,12 @@ h1,h2{
     height:90%;
     
 }
-.item{
+.nav-items{
     padding:1.2em;
     border-top: 1px solid black;
 }
 .description{
-    margin:1.2em 1.2em 1.2em 1.5em;
+    margin:1.2em 1.2em 1.2em 1.9em;
     margin-left: 28%;
 }
 .sub-code{
@@ -46,7 +47,7 @@ h1,h2{
     font-size: 85%;
    
 }
-.sub-container{
+.sub-main-section{
     margin-left:6em;
 }
 .link{
@@ -65,4 +66,14 @@ li{
     color:red;
     text-decoration-color:red;
     
+}
+section{
+    display: block;
+}
+@media screen and (max-width:1000px) {
+    .document{min-width:950px;
+    }
+    .description{
+        font-size: 180%;
+    }
 }
